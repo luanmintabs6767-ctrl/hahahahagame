@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>하하하하게임 - Credits</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        body {
+            overflow: hidden;
+            background: #000;
+            font-family: 'Outfit', sans-serif;
+            width: 100vw;
+            height: 100vh;
+            cursor: pointer;
+            touch-action: none;
+        }
+
+        /* ===== START SCREEN ===== */
+        #startScreen {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: radial-gradient(ellipse at center, #1a1a3e 0%, #0a0a1a 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: opacity 1s ease;
+        }
+
+        #startScreen.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .start-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 2.2rem;
+            color: #7cf77c;
+            text-shadow: 0 0 20px rgba(124, 247, 124, 0.6),
+                         0 0 40px rgba(124, 247, 124, 0.3);
+            margin-bottom: 1rem;
+            text-align: center;
+            animation: titlePulse 2s ease-in-out infinite;
+        }
+
+        .start-subtitle {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.9rem;
+            color: #a8a8ff;
+            margin-bottom: 3rem;
+            letter-spacing: 3px;
+        }
+
+        .start-prompt {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.75rem;
+            color: #ffffff;
+            animation: blink 1.2s ease-in-out infinite;
+            letter-spacing: 2px;
+        }
+
+        .start-andou {
+            width: 120px;
+            height: 120px;
+            image-rendering: pixelated;
+            margin-bottom: 2rem;
+            animation: bounce 1s ease-in-out infinite;
+        }
+
+        @keyframes titlePulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.2; }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        /* ===== CREDITS SCENE ===== */
+        #creditsScene {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            display: none;
+        }
+
+        #creditsScene.active {
+            display: block;
+        }
+
+        .bg-sky {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: linear-gradient(180deg, #1a0533 0%, #2d1b69 20%, #4a2c8a 40%, #e8734a 70%, #f5a623 85%, #ffd700 100%);
+            animation: skyShift 30s ease-in-out infinite alternate;
+            will-change: background;
+        }
+
+        @keyframes skyShift {
+            0% {
+                background: linear-gradient(180deg, #1a0533 0%, #2d1b69 20%, #4a2c8a 40%, #e8734a 70%, #f5a623 85%, #ffd700 100%);
+            }
+            50% {
+                background: linear-gradient(180deg, #0d1b2a 0%, #1b2838 20%, #2a4066 40%, #5fa8d3 70%, #86c5da 85%, #b8e3f3 100%);
+            }
+            100% {
+                background: linear-gradient(180deg, #1a0533 0%, #2d1b69 20%, #6b3fa0 40%, #ff6b6b 70%, #ffa07a 85%, #ffe066 100%);
+            }
+        }
+
+        .stars {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 50%;
+            overflow: hidden;
+        }
+
+        .star {
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            animation: twinkle 3s ease-in-out infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.5); }
+        }
+
+        .cloud {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50px;
+            animation: cloudFloat linear infinite;
+            will-change: transform;
+        }
+
+        @keyframes cloudFloat {
+            from { transform: translateX(110vw); }
+            to { transform: translateX(-200px); }
+        }
+
+        .ground {
+            position: absolute;
+            bottom: 0; left: 0;
+            width: 100%; height: 120px;
+            background: linear-gradient(180deg, #2d8a4e 0%, #1a5c30 30%, #0d3318 100%);
+            border-top: 4px solid #4ade80;
+            box-shadow: 0 -5px 15px rgba(74, 222, 128, 0.3);
+        }
+
+        .ground::before {
+            content: '';
+            position: absolute;
+            top: -2px; left: 0;
+            width: 200%; height: 6px;
+            background: repeating-linear-gradient(
+                90deg,
+                #4ade80 0px, #4ade80 20px,
+                #38b264 20px, #38b264 40px,
+                #4ade80 40px, #4ade80 60px,
+                #2d8a4e 60px, #2d8a4e 80px
+            );
+            animation: groundScroll 2s linear infinite;
+            will-change: transform;
+        }
+
+        @keyframes groundScroll {
+            from { transform: translateX(0); }
+            to { transform: translateX(-80px); }
+        }
+
+        .ground-paused::before {
+            animation-play-state: paused !important;
+        }
+
+        .grass-detail {
+            position: absolute;
+            bottom: 120px;
+            width: 200%; height: 30px;
+            overflow: hidden;
+        }
+
+        .grass-blade {
+            position: absolute;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to top, #2d8a4e, #6ee77a);
+            border-radius: 2px 2px 0 0;
+            transform-origin: bottom center;
+            animation: grassSway 2s ease-in-out infinite;
+        }
+
+        @keyframes grassSway {
+            0%, 100% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+        }
+
+        /* ===== CHARACTERS ===== */
+        .character {
+            position: absolute;
+            bottom: 120px;
+            image-rendering: pixelated;
+            will-change: transform, left;
+        }
+
+        #andou {
+            width: 80px;
+            height: 80px;
+            left: 35%;
+            z-index: 10;
+        }
+
+        #wanda {
+            width: 80px;
+            height: 100px;
+            left: -120px;
+            z-index: 9;
+            opacity: 0;
+        }
+
+        .dust-container {
+            position: absolute;
+            bottom: 120px; left: 0;
+            width: 100%; height: 60px;
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        .dust {
+            position: absolute;
+            bottom: 0;
+            width: 10px; height: 10px;
+            image-rendering: pixelated;
+            opacity: 0;
+        }
+
+        /* ===== EMOTION BUBBLES ===== */
+        .emotion-bubble {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.95);
+            border: 3px solid #333;
+            border-radius: 20px;
+            padding: 8px 14px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #333;
+            opacity: 0;
+            transform: translateY(10px);
+            z-index: 20;
+            white-space: nowrap;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            will-change: transform, opacity;
+        }
+
+        .emotion-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -10px; left: 20px;
+            width: 0; height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 10px solid #333;
+        }
+
+        .emotion-bubble::before {
+            content: '';
+            position: absolute;
+            bottom: -7px; left: 22px;
+            width: 0; height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 8px solid rgba(255, 255, 255, 0.95);
+            z-index: 1;
+        }
+
+        .emotion-bubble.show {
+            opacity: 1;
+            transform: translateY(0);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .emotion-bubble.hide {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease-in;
+        }
+
+        /* ===== CREDITS TEXT ===== */
+        .credits-container {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+            z-index: 50;
+        }
+
+        .credit-card {
+            position: absolute;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(30px) scale(0.95);
+            will-change: transform, opacity;
+        }
+
+        .credit-card.show {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .credit-card.hide {
+            opacity: 0;
+            transform: translateY(-30px) scale(0.95);
+            transition: all 0.6s ease-in;
+        }
+
+        .credit-role {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.7rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            background: linear-gradient(90deg, #ffd700, #ff6b6b, #ffd700);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmer 3s linear infinite;
+        }
+
+        @keyframes shimmer {
+            from { background-position: 200% 0; }
+            to { background-position: -200% 0; }
+        }
+
+        .credit-name {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: #fff;
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.4),
+                         0 4px 8px rgba(0, 0, 0, 0.5);
+            letter-spacing: 2px;
+        }
+
+        .credit-decoration {
+            margin-top: 8px;
+            font-size: 1.2rem;
+            opacity: 0.6;
+        }
+
+        .particle-container {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 3;
+        }
+
+        /* ===== FINAL CREDITS ===== */
+        .final-credits {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            opacity: 0;
+            transition: opacity 1.5s ease;
+            pointer-events: none;
+            background: radial-gradient(ellipse at center, rgba(26, 5, 51, 0.7) 0%, rgba(0, 0, 0, 0.85) 100%);
+        }
+
+        .final-credits.show {
+            opacity: 1;
+        }
+
+        .final-title {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 1.8rem;
+            color: #7cf77c;
+            text-shadow: 0 0 30px rgba(124, 247, 124, 0.6);
+            margin-bottom: 3rem;
+            text-align: center;
+            animation: titlePulse 2s ease-in-out infinite;
+        }
+
+        .final-team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            max-width: 900px;
+            margin-bottom: 3rem;
+            padding: 0 20px;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 1.2rem 1.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            min-width: 160px;
+            transform: translateY(20px);
+            opacity: 0;
+            transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .team-member.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .team-member .role {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.5rem;
+            letter-spacing: 3px;
+            color: #ffd700;
+            margin-bottom: 8px;
+        }
+
+        .team-member .name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .thank-you {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.75rem;
+            color: #a8a8ff;
+            letter-spacing: 2px;
+            opacity: 0;
+            text-align: center;
+            line-height: 1.5;
+            transition: opacity 1s ease 1s;
+        }
+
+        .final-credits.show .thank-you {
+            opacity: 1;
+        }
+
+        .firefly {
+            position: absolute;
+            width: 4px; height: 4px;
+            background: #ffd700;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #ffd700, 0 0 16px #ffd700;
+            animation: fireflyFloat linear infinite;
+            opacity: 0;
+        }
+
+        @keyframes fireflyFloat {
+            0% { transform: translate(0, 0); opacity: 0; }
+            20% { opacity: 0.8; }
+            80% { opacity: 0.8; }
+            100% { transform: translate(var(--fx), var(--fy)); opacity: 0; }
+        }
+
+        .vignette {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.4) 100%);
+            pointer-events: none;
+            z-index: 60;
+        }
+
+        .screen-flash {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: white;
+            opacity: 0;
+            pointer-events: none;
+            z-index: 200;
+            transition: opacity 0.1s ease;
+        }
+
+        .screen-flash.flash {
+            opacity: 0.5;
+            transition: opacity 0.05s ease;
+        }
+
+        .heart {
+            position: absolute;
+            font-size: 1.2rem;
+            opacity: 0;
+            z-index: 15;
+            pointer-events: none;
+        }
+
+        .shake {
+            animation: screenShake 0.4s ease-out;
+        }
+
+        @keyframes screenShake {
+            0% { transform: translate(0, 0); }
+            10% { transform: translate(-5px, 3px); }
+            20% { transform: translate(5px, -3px); }
+            30% { transform: translate(-3px, 5px); }
+            40% { transform: translate(3px, -2px); }
+            50% { transform: translate(-2px, 1px); }
+            100% { transform: translate(0, 0); }
+        }
+
+        .progress-bar {
+            position: fixed;
+            bottom: 0; left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #7cf77c, #ffd700, #ff6b6b);
+            z-index: 300;
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+    </style>
+</head>
+<body>
+    <div id="startScreen">
+        <img class="start-andou" src="app/src/main/res/drawable/andou_stand.png" alt="Andou">
+        <div class="start-title">하하하하게임</div>
+        <div class="start-subtitle">CREDITS</div>
+        <div class="start-prompt">CLICK TO START</div>
+    </div>
+
+    <div id="creditsScene">
+        <div class="bg-sky"></div>
+        <div class="stars" id="stars"></div>
+        <div class="particle-container" id="particles"></div>
+        <div id="clouds"></div>
+        
+        <div class="dust-container" id="dustContainer"></div>
+        <img id="andou" class="character" src="app/src/main/res/drawable/andou_stand.png" alt="Andou">
+        <img id="wanda" class="character" src="app/src/main/res/drawable/enemy_wanda_stand.png" alt="Wanda">
+        
+        <div id="andouBubble" class="emotion-bubble"></div>
+        <div id="wandaBubble" class="emotion-bubble"></div>
+        
+        <div class="grass-detail" id="grassDetail"></div>
+        <div class="ground" id="ground"></div>
+        
+        <div class="credits-container">
+            <div class="credit-card" id="creditCard">
+                <div class="credit-role" id="creditRole"></div>
+                <div class="credit-name" id="creditName"></div>
+                <div class="credit-decoration" id="creditDeco"></div>
+            </div>
+        </div>
+
+        <div class="final-credits" id="finalCredits">
+            <div class="final-title">하하하하게임</div>
+            <div class="final-team" id="finalTeam"></div>
+            <div class="thank-you">❤️ THANK YOU FOR PLAYING ❤️</div>
+        </div>
+    </div>
+
+    <div class="vignette"></div>
+    <div class="screen-flash" id="screenFlash"></div>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <audio id="bgMusic" preload="auto">
+        <source src="app/src/main/res/raw/credits.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        // ===== CONFIGURATION =====
+        const CREDITS = [
+            { role: '🎮 DEVELOPER', name: '이솔', deco: '✦ ✦ ✦' },
+            { role: '🎨 DESIGN', name: '박은찬', deco: '◈ ◈ ◈' },
+            { role: '🧪 TESTER', name: '황정훈', deco: '⬥ ⬥ ⬥' },
+            { role: '🧪 TESTER', name: '황도연', deco: '⬥ ⬥ ⬥' },
+            { role: '🧪 TESTER', name: '임지호', deco: '⬥ ⬥ ⬥' },
+        ];
+
+        const SPRITES = {
+            andou: {
+                stand: 'app/src/main/res/drawable/andou_stand.png',
+                walk: [
+                    'app/src/main/res/drawable/andou_flyup01.png',
+                    'app/src/main/res/drawable/andou_flyup02.png',
+                    'app/src/main/res/drawable/andou_flyup03.png',
+                ],
+                fall: [
+                    'app/src/main/res/drawable/andou_fall01.png',
+                    'app/src/main/res/drawable/andou_fall02.png',
+                    'app/src/main/res/drawable/andou_fall03.png',
+                    'app/src/main/res/drawable/andou_fall04.png',
+                ],
+                hit: 'app/src/main/res/drawable/andou_hit.png'
+            },
+            wanda: {
+                stand: 'app/src/main/res/drawable/enemy_wanda_stand.png',
+                run: [
+                    'app/src/main/res/drawable/enemy_wanda_run01.png',
+                    'app/src/main/res/drawable/enemy_wanda_run02.png',
+                    'app/src/main/res/drawable/enemy_wanda_run03.png',
+                    'app/src/main/res/drawable/enemy_wanda_run04.png',
+                    'app/src/main/res/drawable/enemy_wanda_run05.png',
+                    'app/src/main/res/drawable/enemy_wanda_run06.png',
+                    'app/src/main/res/drawable/enemy_wanda_run07.png',
+                    'app/src/main/res/drawable/enemy_wanda_run08.png',
+                ],
+                walk: [
+                    'app/src/main/res/drawable/enemy_wanda_walk01.png',
+                    'app/src/main/res/drawable/enemy_wanda_walk02.png',
+                    'app/src/main/res/drawable/enemy_wanda_walk03.png',
+                    'app/src/main/res/drawable/enemy_wanda_walk04.png',
+                    'app/src/main/res/drawable/enemy_wanda_walk05.png',
+                ]
+            }
+        };
+
+        const DUST_SPRITES = [
+            'app/src/main/res/drawable/dust01.png', 'app/src/main/res/drawable/dust02.png',
+            'app/src/main/res/drawable/dust03.png', 'app/src/main/res/drawable/dust04.png',
+            'app/src/main/res/drawable/dust05.png'
+        ];
+
+        // ===== DOM ELEMENTS =====
+        const startScreen = document.getElementById('startScreen');
+        const creditsScene = document.getElementById('creditsScene');
+        const andouEl = document.getElementById('andou');
+        const wandaEl = document.getElementById('wanda');
+        const andouBubble = document.getElementById('andouBubble');
+        const wandaBubble = document.getElementById('wandaBubble');
+        const creditCard = document.getElementById('creditCard');
+        const creditRole = document.getElementById('creditRole');
+        const creditName = document.getElementById('creditName');
+        const creditDeco = document.getElementById('creditDeco');
+        const bgMusic = document.getElementById('bgMusic');
+        const ground = document.getElementById('ground');
+        const screenFlash = document.getElementById('screenFlash');
+        const progressBar = document.getElementById('progressBar');
+        const finalCredits = document.getElementById('finalCredits');
+        const finalTeam = document.getElementById('finalTeam');
+
+        // ===== STATE =====
+        let phase = 'idle'; 
+        let totalDuration = 0;
+        let lastTime = 0;
+        
+        // 시간 동기화 애니메이션 프레임 제어용 변수
+        let andouAnimTimer = 0;
+        let wandaAnimTimer = 0;
+        let dustSpawnTimer = 0;
+        let heartSpawnTimer = 0;
+        let andouFrame = 0;
+        let wandaFrame = 0;
+
+        // ===== INIT =====
+        function init() {
+            createStars();
+            createClouds();
+            createGrass();
+            createFireflies();
+            preloadImages();
+        }
+
+        function preloadImages() {
+            const allSrcs = [
+                ...SPRITES.andou.walk, ...SPRITES.andou.fall,
+                SPRITES.andou.hit, SPRITES.andou.stand,
+                SPRITES.wanda.stand, ...SPRITES.wanda.run,
+                ...SPRITES.wanda.walk, ...DUST_SPRITES
+            ];
+            allSrcs.forEach(src => {
+                const img = new Image();
+                img.src = src;
+            });
+        }
+
+        function createStars() {
+            const container = document.getElementById('stars');
+            for (let i = 0; i < 80; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                const size = Math.random() * 3 + 1;
+                star.style.cssText = `
+                    width: ${size}px; height: ${size}px;
+                    left: ${Math.random() * 100}%; top: ${Math.random() * 100}%;
+                    animation-delay: ${Math.random() * 3}s;
+                    animation-duration: ${2 + Math.random() * 3}s;
+                `;
+                container.appendChild(star);
+            }
+        }
+
+        function createClouds() {
+            const container = document.getElementById('clouds');
+            for (let i = 0; i < 5; i++) {
+                const cloud = document.createElement('div');
+                cloud.className = 'cloud';
+                const w = 80 + Math.random() * 120;
+                const h = 20 + Math.random() * 30;
+                cloud.style.cssText = `
+                    width: ${w}px; height: ${h}px;
+                    top: ${10 + Math.random() * 30}%;
+                    animation-duration: ${20 + Math.random() * 30}s;
+                    animation-delay: ${-Math.random() * 30}s;
+                    opacity: ${0.05 + Math.random() * 0.15};
+                `;
+                container.appendChild(cloud);
+            }
+        }
+
+        function createGrass() {
+            const container = document.getElementById('grassDetail');
+            for (let i = 0; i < 100; i++) {
+                const blade = document.createElement('div');
+                blade.className = 'grass-blade';
+                const h = 8 + Math.random() * 20;
+                blade.style.cssText = `
+                    left: ${i * 1}%; height: ${h}px;
+                    animation-delay: ${Math.random() * 2}s;
+                `;
+                container.appendChild(blade);
+            }
+        }
+
+        function createFireflies() {
+            const container = document.getElementById('particles');
+            for (let i = 0; i < 15; i++) {
+                const ff = document.createElement('div');
+                ff.className = 'firefly';
+                ff.style.cssText = `
+                    left: ${Math.random() * 100}%; top: ${Math.random() * 70}%;
+                    --fx: ${-50 + Math.random() * 100}px; --fy: ${-80 + Math.random() * 60}px;
+                    animation-duration: ${4 + Math.random() * 6}s;
+                    animation-delay: ${Math.random() * 8}s;
+                `;
+                container.appendChild(ff);
+            }
+        }
+
+        function spawnDust(x, y) {
+            const container = document.getElementById('dustContainer');
+            for (let i = 0; i < 3; i++) {
+                const dust = document.createElement('img');
+                dust.className = 'dust';
+                dust.src = DUST_SPRITES[Math.floor(Math.random() * DUST_SPRITES.length)];
+                dust.style.left = x + 'px';
+                dust.style.bottom = Math.random() * 30 + 'px';
+                container.appendChild(dust);
+
+                const dx = (Math.random() - 0.5) * 60;
+                const dy = Math.random() * 40 + 10;
+                dust.animate([
+                    { opacity: 0.8, transform: 'translate(0, 0) scale(2)' },
+                    { opacity: 0, transform: `translate(${dx}px, -${dy}px) scale(0.5)` }
+                ], { duration: 600, easing: 'ease-out' }).onfinish = () => dust.remove();
+            }
+        }
+
+        function flashScreen() {
+            screenFlash.classList.add('flash');
+            setTimeout(() => screenFlash.classList.remove('flash'), 100);
+        }
+
+        function showBubble(bubble, text, x, y) {
+            bubble.textContent = text;
+            bubble.style.left = x + 'px';
+            bubble.style.top = y + 'px';
+            bubble.classList.remove('hide');
+            bubble.classList.add('show');
+        }
+
+        function hideBubble(bubble) {
+            bubble.classList.remove('show');
+            bubble.classList.add('hide');
+        }
+
+        function spawnHearts(x, y) {
+            for (let i = 0; i < 5; i++) {
+                const heart = document.createElement('div');
+                heart.className = 'heart';
+                heart.textContent = '❤️';
+                heart.style.left = (x + Math.random() * 60 - 30) + 'px';
+                heart.style.top = y + 'px';
+                heart.style.fontSize = (0.8 + Math.random() * 0.8) + 'rem';
+                creditsScene.appendChild(heart);
+                heart.animate([
+                    { opacity: 0, transform: 'translateY(0) scale(0) rotate(0deg)' },
+                    { opacity: 1, transform: `translateY(-30px) scale(1) rotate(${Math.random() * 30 - 15}deg)`, offset: 0.3 },
+                    { opacity: 0, transform: `translateY(-80px) scale(0.5) rotate(${Math.random() * 60 - 30}deg)` }
+                ], { duration: 1200 + Math.random() * 800, easing: 'ease-out', delay: i * 100 })
+                .onfinish = () => heart.remove();
+            }
+        }
+
+        // ===== TIMELINE SYSTEM =====
+        const PHASE_TIMELINE = [
+            { time: 0, action: () => { phase = 'running'; ground.classList.remove('ground-paused'); showCredit(0); }},
+            { time: 5000, action: () => { hideCredit(); }},
+            { time: 5800, action: () => { showCredit(1); }},
+            { time: 10000, action: () => { hideCredit(); }},
+            { time: 10500, action: () => { 
+                phase = 'tripping'; flashScreen(); creditsScene.classList.add('shake');
+                setTimeout(() => creditsScene.classList.remove('shake'), 400);
+                const rect = andouEl.getBoundingClientRect(); spawnDust(rect.left, 0);
+            }},
+            { time: 11500, action: () => { 
+                phase = 'fallen'; ground.classList.add('ground-paused');
+                showBubble(andouBubble, '아야...! 💫', andouEl.offsetLeft - 10, andouEl.offsetTop - 50);
+            }},
+            { time: 12500, action: () => { showCredit(2); }},
+            { time: 15000, action: () => { hideCredit(); hideBubble(andouBubble); }},
+            { time: 15500, action: () => { phase = 'wanda-arrives'; wandaEl.style.opacity = '1'; wandaEl.style.left = '-120px'; }},
+            { time: 17500, action: () => { 
+                showBubble(wandaBubble, '괜찮아? 🤔', wandaEl.offsetLeft + 20, wandaEl.offsetTop - 50); showCredit(3); 
+            }},
+            { time: 19500, action: () => { 
+                hideBubble(wandaBubble); phase = 'help';
+                showBubble(andouBubble, '고마워! 😊', andouEl.offsetLeft - 10, andouEl.offsetTop - 50);
+            }},
+            { time: 21000, action: () => { hideCredit(); hideBubble(andouBubble); const rect = andouEl.getBoundingClientRect(); spawnHearts(rect.left + 20, rect.top - 30); }},
+            { time: 22000, action: () => { showCredit(4); phase = 'together'; ground.classList.remove('ground-paused'); }},
+            { time: 27000, action: () => { hideCredit(); }},
+            { time: 28000, action: () => { phase = 'final'; showFinalCredits(); }},
+        ];
+
+        let timelineIdx = 0;
+
+        function showCredit(index) {
+            if (index >= CREDITS.length) return;
+            const c = CREDITS[index];
+            creditRole.textContent = c.role;
+            creditName.textContent = c.name;
+            creditDeco.textContent = c.deco;
+            creditCard.classList.remove('hide');
+            creditCard.classList.add('show');
+        }
+
+        function hideCredit() {
+            creditCard.classList.remove('show');
+            creditCard.classList.add('hide');
+        }
+
+        function showFinalCredits() {
+            finalTeam.innerHTML = '';
+            CREDITS.forEach((c, i) => {
+                const card = document.createElement('div');
+                card.className = 'team-member';
+                card.innerHTML = `<div class="role">${c.role}</div><div class="name">${c.name}</div>`;
+                finalTeam.appendChild(card);
+                setTimeout(() => card.classList.add('show'), 300 + i * 200);
+            });
+            finalCredits.classList.add('show');
+        }
+
+        // ===== ENGINE LOOP (시간 동기화 개선) =====
+        function update(timestamp) {
+            if (!lastTime) lastTime = timestamp;
+            const dt = timestamp - lastTime;
+            lastTime = timestamp;
+            
+            totalDuration += dt;
+
+            // 타임라인 체크
+            while (timelineIdx < PHASE_TIMELINE.length && totalDuration >= PHASE_TIMELINE[timelineIdx].time) {
+                PHASE_TIMELINE[timelineIdx].action();
+                timelineIdx++;
+            }
+
+            // 페이즈별 상태 기계 작동
+            handlePhaseLogic(dt);
+
+            // 오디오 진행도 바 업데이트
+            if (bgMusic.duration) {
+                const pct = (bgMusic.currentTime / bgMusic.duration) * 100;
+                progressBar.style.width = pct + '%';
+            }
+
+            // 말풍선 위치 유연하게 동기화
+            if (andouBubble.classList.contains('show')) {
+                andouBubble.style.left = (andouEl.offsetLeft - 10) + 'px';
+                andouBubble.style.top = (andouEl.offsetTop - 55) + 'px';
+            }
+            if (wandaBubble.classList.contains('show')) {
+                wandaBubble.style.left = (wandaEl.offsetLeft + 10) + 'px';
+                wandaBubble.style.top = (wandaEl.offsetTop - 55) + 'px';
+            }
+
+            requestAnimationFrame(update);
+        }
+
+        function handlePhaseLogic(dt) {
+            andouAnimTimer += dt;
+            wandaAnimTimer += dt;
+            dustSpawnTimer += dt;
+
+            const timeNow = performance.now();
+
+            switch (phase) {
+                case 'running':
+                    // 안두 달리기 스프라이트 교체 (130ms 마다)
+                    if (andouAnimTimer >= 130) {
+                        andouAnimTimer = 0;
+                        andouFrame = (andouFrame + 1) % SPRITES.andou.walk.length;
+                        andouEl.src = SPRITES.andou.walk[andouFrame];
+                    }
+                    andouEl.style.transform = `translateY(${Math.sin(timeNow * 0.01) * 5}px)`;
+                    
+                    if (dustSpawnTimer >= 250) {
+                        dustSpawnTimer = 0;
+                        const rect = andouEl.getBoundingClientRect();
+                        spawnDust(rect.left + 10, 0);
+                    }
+                    break;
+
+                case 'tripping':
+                    if (andouAnimTimer >= 100) {
+                        andouAnimTimer = 0;
+                        andouFrame = (andouFrame + 1) % SPRITES.andou.fall.length;
+                        andouEl.src = SPRITES.andou.fall[andouFrame];
+                    }
+                    const rot = Math.min((totalDuration - 10500) / 10, 90);
+                    andouEl.style.transform = `rotate(${rot}deg) translateY(${Math.min(rot / 3, 20)}px)`;
+                    break;
+
+                case 'fallen':
+                case 'wanda-arrives':
+                    andouEl.src = SPRITES.andou.hit;
+                    andouEl.style.transform = 'rotate(90deg) translateY(20px)';
+                    
+                    if (phase === 'wanda-arrives') {
+                        const currentLeft = parseFloat(wandaEl.style.left) || -120;
+                        const targetLeft = andouEl.offsetLeft - 90;
+                        
+                        if (currentLeft < targetLeft) {
+                            // 시간 독립적 이동속도 보정
+                            wandaEl.style.left = (currentLeft + dt * 0.18) + 'px';
+                            if (wandaAnimTimer >= 100) {
+                                wandaAnimTimer = 0;
+                                wandaFrame = (wandaFrame + 1) % SPRITES.wanda.run.length;
+                                wandaEl.src = SPRITES.wanda.run[wandaFrame];
+                            }
+                        } else {
+                            wandaEl.src = SPRITES.wanda.stand;
+                        }
+                    }
+                    break;
+
+                case 'help':
+                    const helpTime = totalDuration - 19500;
+                    const rotAngle = Math.max(90 - helpTime * 0.09, 0);
+                    const yOffset = Math.max(20 - helpTime * 0.02, 0);
+                    andouEl.style.transform = `rotate(${rotAngle}deg) translateY(${yOffset}px)`;
+                    
+                    if (rotAngle <= 0) {
+                        andouEl.src = SPRITES.andou.stand;
+                        andouEl.style.transform = 'rotate(0deg) translateY(0px)';
+                    }
+                    if (wandaAnimTimer >= 150) {
+                        wandaAnimTimer = 0;
+                        wandaFrame = (wandaFrame + 1) % SPRITES.wanda.walk.length;
+                        wandaEl.src = SPRITES.wanda.walk[wandaFrame];
+                    }
+                    break;
+
+                case 'together':
+                    if (andouAnimTimer >= 130) {
+                        andouAnimTimer = 0;
+                        andouFrame = (andouFrame + 1) % SPRITES.andou.walk.length;
+                        andouEl.src = SPRITES.andou.walk[andouFrame];
+                        
+                        wandaFrame = (wandaFrame + 1) % SPRITES.wanda.run.length;
+                        wandaEl.src = SPRITES.wanda.run[wandaFrame];
+                    }
+
+                    andouEl.style.transform = `translateY(${Math.sin(timeNow * 0.01) * 5}px)`;
+                    wandaEl.style.transform = `translateY(${Math.sin(timeNow * 0.01 + 0.5) * 5}px)`;
+
+                    const wandaLeft = parseFloat(wandaEl.style.left) || wandaEl.offsetLeft;
+                    const targetWanda = andouEl.offsetLeft - 85;
+                    if (Math.abs(wandaLeft - targetWanda) > 2) {
+                        wandaEl.style.left = (wandaLeft + (targetWanda - wandaLeft) * 0.05) + 'px';
+                    }
+
+                    if (dustSpawnTimer >= 250) {
+                        dustSpawnTimer = 0;
+                        const r1 = andouEl.getBoundingClientRect();
+                        const r2 = wandaEl.getBoundingClientRect();
+                        spawnDust(r1.left + 10, 0);
+                        spawnDust(r2.left + 10, 0);
+                    }
+
+                    heartSpawnTimer += dt;
+                    if (heartSpawnTimer >= 1500) {
+                        heartSpawnTimer = 0;
+                        const rect = andouEl.getBoundingClientRect();
+                        spawnHearts(rect.left, rect.top - 20);
+                    }
+                    break;
+            }
+        }
+
+        // ===== START CONTROLLER =====
+        function startCredits() {
+            startScreen.classList.add('hidden');
+            setTimeout(() => {
+                startScreen.style.display = 'none';
+                creditsScene.classList.add('active');
+                bgMusic.play().catch(e => console.log('오디오 자동 재생 제한:', e));
+                requestAnimationFrame(update);
+            }, 1000);
+        }
+
+        startScreen.addEventListener('click', startCredits);
+        startScreen.addEventListener('touchstart', startCredits);
+
+        // 초기화 실행
+        init();
+    </script>
+</body>
+</html>

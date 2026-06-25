@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    // Add this exact line right here:
+    namespace "com.replica.replicaisland"
+
+    compileSdk 10
+
+    defaultConfig {
+        applicationId "com.replica.replicaisland"
+        minSdk 7
+        targetSdk 10
+    }
+    signingConfigs {
+        release {
+            // app 폴더 안에 jks 파일을 넣었을 경우의 상대 경로
+            storeFile file('my-release-key.jks')
+            storePassword '8ukv5744v'
+            keyAlias 'my-key-alias'
+            keyPassword '8ukv5744v'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

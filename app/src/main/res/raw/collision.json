@@ -1,0 +1,1964 @@
+{
+  "signature": 52,
+  "tileCount": 53,
+  "tiles": [
+    {
+      "tileIndex": 0,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 27.0,
+          "endX": 3.0,
+          "endY": 32.0,
+          "normalX": -0.806406,
+          "normalY": 0.591363
+        },
+        {
+          "startX": 3.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 27.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 1,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 2,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 27.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 27.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 27.0,
+          "normalX": 0.680452,
+          "normalY": 0.732793
+        },
+        {
+          "startX": 32.0,
+          "startY": 27.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 3,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 16.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 17.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 17.0,
+          "endX": 16.0,
+          "endY": 32.0,
+          "normalX": -0.691572,
+          "normalY": -0.722308
+        }
+      ]
+    },
+    {
+      "tileIndex": 4,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 16.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 16.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 16.0,
+          "normalX": -0.707107,
+          "normalY": -0.707107
+        },
+        {
+          "startX": 0.0,
+          "startY": 16.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 5,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 16.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 16.0,
+          "endX": 16.0,
+          "endY": 0.0,
+          "normalX": 0.721387,
+          "normalY": -0.692532
+        },
+        {
+          "startX": 16.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 6,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 14.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 14.0,
+          "startY": 32.0,
+          "endX": 0.0,
+          "endY": 16.0,
+          "normalX": 0.730022,
+          "normalY": -0.683424
+        },
+        {
+          "startX": 0.0,
+          "startY": 16.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 7,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 16.0,
+          "normalX": -0.447214,
+          "normalY": -0.894427
+        },
+        {
+          "startX": 32.0,
+          "startY": 16.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 8,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 16.0,
+          "normalX": -0.461934,
+          "normalY": -0.886914
+        },
+        {
+          "startX": 0.0,
+          "startY": 16.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 9,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 16.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 16.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.454621,
+          "normalY": -0.890685
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 10,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 0.0,
+          "endY": 16.0,
+          "normalX": 0.439713,
+          "normalY": -0.898138
+        },
+        {
+          "startX": 0.0,
+          "startY": 16.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 11,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 15.0,
+          "endY": 0.0,
+          "normalX": -0.895461,
+          "normalY": -0.44514
+        },
+        {
+          "startX": 15.0,
+          "startY": 0.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 12,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 16.0,
+          "endY": 0.0,
+          "normalX": 0.894427,
+          "normalY": -0.447214
+        },
+        {
+          "startX": 16.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 15,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 16,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 17,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 18,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 19,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 20,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -0.707107,
+          "normalY": -0.707107
+        }
+      ]
+    },
+    {
+      "tileIndex": 21,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.707107,
+          "normalY": -0.707107
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 22,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 23,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 24,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 16.0,
+          "startY": 0.0,
+          "endX": 16.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 16.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 16.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 25,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 16.0,
+          "startY": 0.0,
+          "endX": 16.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 16.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 16.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 26,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 27,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 16.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 3.0,
+          "normalX": -0.878292,
+          "normalY": -0.478125
+        },
+        {
+          "startX": 32.0,
+          "startY": 3.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 16.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 28,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 15.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 15.0,
+          "startY": 32.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.900492,
+          "normalY": -0.434873
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 31,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 32,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 4.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 4.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 4.0,
+          "normalX": -0.732792,
+          "normalY": -0.680452
+        },
+        {
+          "startX": 0.0,
+          "startY": 4.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 33,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 34,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 5.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 5.0,
+          "endX": 28.0,
+          "endY": 0.0,
+          "normalX": 0.8,
+          "normalY": -0.6
+        },
+        {
+          "startX": 28.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 35,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 36,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": -0.707107,
+          "normalY": 0.707107
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 37,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 0.707107,
+          "normalY": 0.707107
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 38,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 39,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 40,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 16.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 16.0,
+          "startY": 32.0,
+          "endX": 16.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": -0.0
+        },
+        {
+          "startX": 16.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 41,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 15.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 15.0,
+          "startY": 32.0,
+          "endX": 15.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 15.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 42,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 43,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 16.0,
+          "startY": 0.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": -0.897984,
+          "normalY": 0.440028
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 16.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 44,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 15.0,
+          "endY": 0.0,
+          "normalX": 0.898138,
+          "normalY": 0.439713
+        },
+        {
+          "startX": 15.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 48,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 15.0,
+          "endX": 32.0,
+          "endY": 16.0,
+          "normalX": -0.010416,
+          "normalY": 0.999946
+        },
+        {
+          "startX": 32.0,
+          "startY": 16.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 15.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 49,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 16.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 16.0,
+          "endX": 0.0,
+          "endY": 16.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 16.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 51,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 17.0,
+          "startY": 0.0,
+          "endX": 32.0,
+          "endY": 15.0,
+          "normalX": -0.707107,
+          "normalY": 0.707107
+        },
+        {
+          "startX": 32.0,
+          "startY": 15.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 17.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 52,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 15.0,
+          "endX": 16.0,
+          "endY": 32.0,
+          "normalX": -0.714213,
+          "normalY": 0.699929
+        },
+        {
+          "startX": 16.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 15.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 53,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 16.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 16.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 15.0,
+          "normalX": 0.735356,
+          "normalY": 0.677681
+        },
+        {
+          "startX": 32.0,
+          "startY": 15.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 54,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 15.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 15.0,
+          "endX": 15.0,
+          "endY": 0.0,
+          "normalX": 0.714834,
+          "normalY": 0.699294
+        },
+        {
+          "startX": 15.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 55,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 32.0,
+          "endY": 16.0,
+          "normalX": -0.454621,
+          "normalY": 0.890685
+        },
+        {
+          "startX": 32.0,
+          "startY": 16.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 56,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 15.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": -0.454621,
+          "normalY": 0.890685
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 15.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 57,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 16.0,
+          "normalX": 0.439713,
+          "normalY": 0.898138
+        },
+        {
+          "startX": 32.0,
+          "startY": 16.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 58,
+      "segmentCount": 3,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 16.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 0.447214,
+          "normalY": 0.894427
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 16.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 59,
+      "segmentCount": 4,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 16.0,
+          "endY": 32.0,
+          "normalX": -0.89308,
+          "normalY": 0.449899
+        },
+        {
+          "startX": 16.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        }
+      ]
+    },
+    {
+      "tileIndex": 60,
+      "segmentCount": 5,
+      "segments": [
+        {
+          "startX": 0.0,
+          "startY": 32.0,
+          "endX": 15.0,
+          "endY": 32.0,
+          "normalX": 0.0,
+          "normalY": 1.0
+        },
+        {
+          "startX": 15.0,
+          "startY": 32.0,
+          "endX": 32.0,
+          "endY": 0.0,
+          "normalX": 0.89256,
+          "normalY": 0.450929
+        },
+        {
+          "startX": 32.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 0.0,
+          "normalX": 0.0,
+          "normalY": -1.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        },
+        {
+          "startX": 0.0,
+          "startY": 0.0,
+          "endX": 0.0,
+          "endY": 32.0,
+          "normalX": -1.0,
+          "normalY": 0.0
+        }
+      ]
+    }
+  ]
+}

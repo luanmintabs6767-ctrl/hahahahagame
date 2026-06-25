@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">하하하하게임</string>
+    <string name="change_level">난이도 바꿀래?</string>
+    <string name="test_animation">움직임 테스트 중 (삐빅)</string>
+    <string name="test_diary">비밀 실험 일지</string>
+    <string name="unlock_levels">모든 스테이지 치트 오픈!</string>
+    <string name="unlock_next_level">다음 스테이지 날로 먹기</string>
+    <string name="method_tracing">코딩 흔적 추적 장치</string>
+
+    <string name="game_over">ㅋ (유다희)</string>
+    <string name="thanks_for_playing">와! 끝까지 깨주시다니 압도적 감사..!!</string>
+    <string name="please_wait">로딩 중.. 잠시 숨 고르기</string>
+
+
+    <string name="preference_save_game">나의 소중한 세이브</string>
+    <string name="preference_erase_save_game">세이브 데이터 폭파하기</string>
+    <string name="preference_erase_save_game_dialog">진짜 지우게요? 나중에 후회하면서 눈물 흘려도 복구 안 해줍니다?</string>
+    <string name="preference_erase_save_game_dialog_title">잠깐! 생각할 시간 3초 드림</string>
+    <string name="preference_erase_save_game_dialog_ok">눈 딱 감고 지우기</string>
+    <string name="preference_erase_save_game_dialog_cancel">살려내!! (취소)</string>
+
+
+    <string name="preference_game_settings">이것저것 설정</string>
+    <string name="preference_enable_sound">브금 및 효과음 켜기</string>
+    <string name="preference_enable_sound_summary">귀가 심심할 때 체크하세요</string>
+
+    <string name="preference_safe_mode">쫄보용 안전 모드</string>
+    <string name="preference_safe_mode_summary">폰이 고물이라 자꾸 렉 걸리면 체크</string>
+
+    <string name="preference_configure_controls">손맛 커스텀 (조작 설정)</string>
+    <string name="preference_enable_click_attack">딸깍 어택</string>
+    <string name="preference_enable_click_attack_summary">트랙볼 클릭이나 방향키 가운데 버튼으로 뚝배기를 깹니다.</string>
+    <string name="preference_enable_screen_controls">화면에 조작키 띄우기</string>
+    <string name="preference_enable_screen_controls_summary">화면에 가상 패드를 그립니다. 물리 버튼이 없는 폰을 위한 구원투수. (멀티터치 필수!)</string>
+
+    <string name="preference_enable_tilt_controls">스마트폰 기울여서 조작</string>
+    <string name="preference_enable_tilt_controls_summary">[실험실 기능] 폰을 좌우로 흔들어서 안드로이드를 운전하세요. 손가락 까딱하기 귀찮을 때 추천.</string>
+
+    <string name="preference_movement_sensitivity">감도 조절 (민감도)</string>
+    <string name="preference_movement_sensitivity_summary">트랙볼, 방향키, 광학 센서가 얼마나 예민하게 반응할지 정합니다.</string>
+    <string name="preference_movement_min">달팽이 모드</string>
+    <string name="preference_movement_max">빛의 속도</string>
+
+    <string name="preference_tilt_sensitivity">기울기 예민도</string>
+    <string name="preference_tilt_sensitivity_summary">폰을 얼마나 기울여야 움직일지 튜닝합니다.</string>
+    <string name="preference_tilt_min">둔감함</string>
+    <string name="preference_tilt_max">극도로 예민함</string>
+
+    <string name="preference_key_config">키보드 맵핑하기</string>
+    <string name="preference_key_config_summary">슬라이드 키보드가 달린 고대 유물 폰 전용 세팅.</string>
+    <string name="preference_key_config_dialog_title">키보드 장인 되기</string>
+    <string name="preference_key_config_dialog_ok">이대로 저장!</string>
+    <string name="preference_key_config_dialog_cancel">안해 (원래대로)</string>
+    <string name="preference_key_config_left">왼쪽으로</string>
+    <string name="preference_key_config_right">오른쪽으로</string>
+    <string name="preference_key_config_jump">점프!</string>
+    <string name="preference_key_config_attack">공격!!</string>
+
+
+    <string name="preference_enable_statistics">플레이 기록 바치기</string>
+    <string name="preference_enable_statistics_summary">더 갓-겜을 만들 수 있도록 익명의 플레이 데이터를 서버로 전송합니다.</string>
+
+
+    <string name="preference_about">개발자 정보</string>
+    <string name="preference_about_title">하하하하게임 이란 무엇인가</string>
+    <string name="preference_about_summary">이솔이 게임 만들고 그림은 박은찬, 테스터는 임지호,황정훈,황도연입니다.</string>
+    <string name="preference_visit_site">공식 홈페이지 구경 가기</string>
+    <string name="preference_thanks_title">스페셜 땡스 투</string>
+    <string name="preference_thanks_summary">이 프로젝트를 물심양면으로 도와준 사람은 없었... 그리고 안드로이드 팀에게 무한한 감사를!</string>
+    <string name="preference_licence_title">라이선스 정보</string>
+    <string name="preference_licence_summary">이 게임의 일부는 Google이 공유한 뼈대를 개조한 것이며, 크리에이티브 커먼즈 3.0 표시 라이선스를 준수합니다.</string>
+    <string name="preference_misc">쓸데없는 더 많은 정보</string>
+    <string name="preference_enable_debug">디버그 로그 개방</string>
+    <string name="preference_enable_debug_summary">logcat에 각종 기록을 도배합니다. 켜면 게임이 눈에 띄게 느려짐!</string>
+
+    <string name="game_results_title">★ 최종 성적표 ★</string>
+    <string name="game_results_pearls_collected">노가다한 진주 개수:</string>
+    <string name="game_results_robots_destroyed">박살 낸 로봇 개수:</string>
+    <string name="game_results_total_play_time">당신의 인생 낭비 시간:</string>
+    <string name="game_results_ending">목격한 엔딩 종류:</string>
+    <string name="game_results_unlocks_message">축하합니다! 보너스 메뉴에서 \'일직선 모드\'와 \'스테이지 선택권\'을 획득하셨습니다!</string>
+    <string name="game_results_kabocha_ending">배드 엔딩 #1 - 카보차 박사의 세계 정복</string>
+    <string name="game_results_rokudou_ending">배드 엔딩 #2 - 로쿠도우의 판정승</string>
+    <string name="game_results_wanda_ending">♥ 해피 엔딩 ♥ - 당신이 지구를 구했습니다!</string>
+    <string name="game_results_ok_button">끝났다! 집 가자!</string>
+
+    <string name="saved_game_erased_notification">세이브 데이터가 흔적도 없이 사라짐</string>
+
+    <string name="quit_game_dialog_title">벌써 빤스런 하려고요?</string>
+    <string name="quit_game_dialog_ok">응 끌래</string>
+    <string name="quit_game_dialog_cancel">더 할래</string>
+    <string name="quit_game_dialog_message">메인 화면으로 도망치시겠습니까?</string>
+
+    <string name="new_game_dialog_title">새 인생 살기 (처음부터)?</string>
+    <string name="new_game_dialog_ok">고! 새 게임 시작</string>
+    <string name="new_game_dialog_cancel">앗 잘못 누름</string>
+    <string name="new_game_dialog_message">여기서 새로 시작하면 지금껏 고생해서 깬 데이터가 공중분해 됩니다. 진짜 할 거임?</string>
+
+    <string name="extras_locked_dialog_title">아직은 안 열어주지롱!</string>
+    <string name="extras_locked_dialog_ok">야려보지 말고 깨러 가기</string>
+    <string name="extras_locked_dialog_message">이 보너스 기능은 잠겨 있습니다. 게임 최소 한 번은 왕 깨고 오세요!</string>
+
+
+    <string name="nav_type">트랙볼</string>
+
+    <string name="whats_new_dialog_title">하하하하게임 뉴스</string>
+    <string name="whats_new_dialog_ok">가보자고!</string>
+    <string name="whats_new_dialog_message">하하하하게임에 오신 것을 환영합니다. 무려 150만 명 넘는 고인물들이 이 게임을 거쳐 갔습니다!\n\n
+<b>이번 버전의 맛도리 기능:</b>\n
+- 히든 모드 해제: 일직선 스토리 모드 및 스테이지 골라 먹기 가능.\n
+- 물리 버튼 없는 불쌍한 폰을 위한 가상 화면 조작키 추가.\n
+- 뉴비를 위한 난이도 선택 기능 탑재.\n
+- 깼을 때 내 실력을 자랑할 수 있는 기록창 구현.\n
+- 개발자가 갈려 나가며 잡은 수많은 버그 픽스!\n
+\n
+\n
+이 게임은 오픈소스 대인배 프로젝트입니다. 어떻게 굴러가는지 궁금하거나, 이걸로 나만의 똥겜을 만들고 싶다면 우리 웹사이트(snake0071.com)에서 소스코드를 털어가세요.
+\n
+\n
+참고로 이 게임은 익명으로 플레이 통계를 수집합니다. 내 사생활은 소중하니까 전송하기 싫다면 옵션에서 언제든 끌 수 있습니다.</string>
+
+    <string name="control_setup_dialog_title">조작 체계 자동 매칭</string>
+    <string name="control_setup_dialog_ok">이대로 쓸게요</string>
+    <string name="control_setup_dialog_change">내 입맛대로 변경</string>
+    <string name="control_setup_dialog_message">
+당신의 폰 하드웨어를 감지하여 최적의 조작법을 세팅했습니다:
+&lt;br&gt;
+&lt;br&gt;
+&lt;small&gt;%1$s&lt;/small&gt;
+&lt;br&gt;
+&lt;br&gt;하하하하하게임은 다양한 커스텀을 지원합니다. 마음에 안 들면 언제든지 \'옵션 &gt; 컨트롤 설정\'에서 뜯어고치세요.
+&lt;br&gt;
+&lt;br&gt;
+대충 위 시스템대로 시작할까요, 아니면 지금 바로 장인 정신으로 수동 세팅할까요?</string>
+    <string name="control_setup_dialog_trackball">&lt;b&gt;트랙볼 / 트랙패드&lt;/b&gt; - 옵션에서 민감도 조절 가능.</string>
+    <string name="control_setup_dialog_dpad">&lt;b&gt;키보드 / 방향패드&lt;/b&gt; - 옵션에서 키 배정 변경 가능.</string>
+    <string name="control_setup_dialog_screen">&lt;b&gt;화면 가상 조작 패드&lt;/b&gt;</string>
+    <string name="control_setup_dialog_tilt">&lt;b&gt;기울이기&lt;/b> - 옵션에서 민감도 조절 가능.</string>
+
+    <string name="onscreen_tilt_dialog_title">신기술 도입 안내!</string>
+    <string name="onscreen_tilt_dialog_ok">화면 패드 써볼래</string>
+    <string name="onscreen_tilt_dialog_cancel">기울이기가 근본이지</string>
+    <string name="onscreen_tilt_dialog_message">이번 버전에는 멀티터치가 되는 최신 스마트폰을 위한 <b>화면 가상 조작 패드</b>가 추가되었습니다.
+당신의 폰은 이 고급 기술을 쓸 수 있지만, 현재 <b>기울이기</b>로 설정되어 있네요.
+이참에 맛깔나는 신상 화면 조작으로 갈아타 보시겠습니까, 아니면 몸을 흔들던 근본을 유지하시겠습니까?
+\n&lt;small&gt;언제든지 옵션에서 변덕을 부려 바꿀 수 있으니 안심하세요.&lt;/small&gt;
+</string>
+
+    <string name="whats_new_ticker">신규 업데이트: 가상 터치패드 지원, SD카드 설치 가능, 히든 액스트라 모드 봉인 해제, 엔딩 후 성적표 출력, 그리고 무수한 버그들 박멸 완료.</string>
+
+    <string name="baby_description">응애 모드 (렉스 걸려도 깸)</string>
+    <string name="kids_description">무난하고 평화로운 맛</string>
+    <string name="adults_description">매운맛 고인물 전용 (고통을 즐기는 자를 위해)</string>
+
+
+    <string name="memory_playback_start">★ 과거 회상 재생 시작 ★</string>
+    <string name="memory_playback_complete">★ 과거 회상 완료 ★</string>
+    <string name="diary_found">오다 주웠다, 낡은 다이어리 발견!</string>
+
+
+    <string name="Wanda">완다</string>
+    <string name="Kyle">카일</string>
+    <string name="Kabocha">카보차노미즈 박사</string>
+    <string name="Rokudou">로쿠도우 선생</string>
+    <string name="Android">안드로이드</string>
+
+    <string name="level_0_1_sewer">과거의 파편 #000</string>
+    <string name="level_0_2_lab">과거의 파편 #001</string>
+    <string name="level_0_3_lab">과거의 파편 #002</string>
+
+    <string name="level_1_1_island">과거의 파편 #003</string>
+    <string name="level_1_2_island">과거의 파편 #004</string>
+    <string name="level_1_3_island">과거의 파편 #005</string>
+    <string name="level_1_4_island">과거의 파편 #006</string>
+    <string name="level_1_5_island">과거의 파편 #007</string>
+    <string name="level_1_6_island">과거의 파편 #008</string>
+    <string name="level_1_7_island">과거의 파편 #009</string>
+    <string name="level_1_8_island">과거의 파편 #010</string>
+    <string name="level_1_9_island">과거의 파편 #011</string>
+
+    <string name="level_2_1_grass">과거의 파편 #012</string>
+    <string name="level_2_2_grass">과거의 파편 #013</string>
+    <string name="level_2_3_grass">과거의 파편 #014</string>
+    <string name="level_2_4_grass">과거의 파편 #015</string>
+    <string name="level_2_5_grass">과거의 파편 #016</string>
+    <string name="level_2_6_grass">과거의 파편 #017</string>
+    <string name="level_2_7_grass">과거의 파편 #018</string>
+    <string name="level_2_8_grass">과거의 파편 #019</string>
+    <string name="level_2_9_grass">과거의 파편 #020</string>
+
+    <string name="level_3_1_sewer">과거의 파편 #021</string>
+    <string name="level_3_2_sewer">과거의 파편 #022</string>
+    <string name="level_3_3_sewer">과거의 파편 #023</string>
+    <string name="level_3_4_sewer">과거의 파편 #024</string>
+    <string name="level_0_1_sewer_kyle">카일의 흑역사 #024.3</string>
+    <string name="level_0_1_sewer_wanda">완다의 흑역사 #024.7</string>
+    <string name="level_3_5_sewer">현실 복귀 #025</string>
+    <string name="level_3_6_sewer">현실 복귀 #026</string>
+    <string name="level_3_7_sewer">현실 복귀 #027</string>
+    <string name="level_3_8_sewer">현실 복귀 #028</string>
+    <string name="level_3_9_sewer">현실 복귀 #029</string>
+    <string name="level_3_10_sewer">현실 복귀 #030</string>
+    <string name="level_3_11_sewer">카일 맞짱 스테이지 #030.5</string>
+
+    <string name="level_4_1_underground">지하 던전 #031</string>
+    <string name="level_4_2_underground">지하 던전 #032</string>
+    <string name="level_4_3_underground">지하 던전 #033</string>
+    <string name="level_4_4_underground">지하 던전 #034</string>
+    <string name="level_4_5_underground">지하 던전 #035</string>
+    <string name="level_4_6_underground">지하 던전 #036</string>
+    <string name="level_4_7_underground">지하 던전 #037</string>
+    <string name="level_4_8_underground">지하 던전 #038</string>
+    <string name="level_4_9_underground">지하 던전 #039</string>
+
+    <string name="level_final_boss_lab">최종 멸망의 연구소 #040</string>
+
+    <string name="level_puzzle_test">머리 쥐어짜기 테스트</string>
+    <string name="level_object_test">물리 오브젝트 테스트</string>
+    <string name="level_performance_test">똥폰 성능 프레임 테스트</string>
+    <string name="level_performance_test2">렉 유발 테스트 2</string>
+    <string name="level_performance_test3">폰 폭발 테스트 3</string>
+    <string name="level_performance_test4">구글 연동 테스트 4</string>
+    <string name="level_npc_motion_test">몹 움직임 테스트</string>
+
+    <string name="level_testmap">맵 테스트</string>
+    <string name="level_slidetest">슬라이드 테스트 1</string>
+    <string name="level_slidetest2">슬라이드 테스트 2</string>
+    <string name="level_slidetest3">슬라이드 테스트 3</string>
+    <string name="level_openandshut">열고 닫기 테스트</string>
+    <string name="level_island1_test">섬 1 테스트</string>
+    <string name="level_dungeon01_test">던전 01 테스트</string>
+    <string name="level_collisiontest">충돌 테스트 1</string>
+    <string name="level_collision_test">충돌 테스트 2</string>
+
+    <string name="level_0_1_time">+ 07:12:03</string>
+    <string name="level_0_2_time">+ 00:00:00</string>
+    <string name="level_0_3_time">+ 00:06:26</string>
+
+    <string name="level_1_1_time">+ 00:34:10</string>
+    <string name="level_1_2_time">+ 00:44:46</string>
+    <string name="level_1_3_time">+ 00:52:16</string>
+    <string name="level_1_4_time">+ 00:59:01</string>
+    <string name="level_1_5_time">+ 01:07:24</string>
+    <string name="level_1_6_time">+ 01:23:38</string>
+    <string name="level_1_7_time">+ 01:38:04</string>
+    <string name="level_1_8_time">+ 01:42:00</string>
+    <string name="level_1_9_time">+ 01:56:44</string>
+
+    <string name="level_2_1_time">+ 02:25:18</string>
+    <string name="level_2_2_time">+ 02:37:20</string>
+    <string name="level_2_3_time">+ 02:40:13</string>
+    <string name="level_2_4_time">+ 02:51:09</string>
+    <string name="level_2_5_time">+ 03:01:55</string>
+    <string name="level_2_6_time">+ 03:16:28</string>
+    <string name="level_2_7_time">+ 03:33:12</string>
+    <string name="level_2_8_time">+ 03:46:07</string>
+    <string name="level_2_9_time">+ 03:54:29</string>
+
+    <string name="level_3_1_time">+ 04:07:10</string>
+    <string name="level_3_2_time">+ 04:18:42</string>
+    <string name="level_3_3_time">+ 04:45:15</string>
+    <string name="level_3_4_time">+ 04:59:06</string>
+    <string name="level_3_5_time">+ 07:19:59</string>
+    <string name="level_3_6_time">+ 07:36:17</string>
+    <string name="level_3_7_time">+ 07:51:24</string>
+    <string name="level_3_8_time">+ 08:16:55</string>
+    <string name="level_3_9_time">+ 08:35:12</string>
+    <string name="level_3_10_time">+ 08:50:36</string>
+    <string name="level_3_11_time">+ 08:55:54</string>
+
+    <string name="level_4_1_time">+ 09:10:01</string>
+    <string name="level_4_2_time">+ 09:42:40</string>
+    <string name="level_4_3_time">+ 09:58:11</string>
+    <string name="level_4_4_time">+ 10:27:36</string>
+    <string name="level_4_5_time">+ 10:52:10</string>
+    <string name="level_4_6_time">+ 11:12:35</string>
+    <string name="level_4_7_time">+ 11:39:04</string>
+    <string name="level_4_8_time">+ 11:57:22</string>
+    <string name="level_4_9_time">+ 12:13:40</string>
+    <string name="level_final_boss_time">+ 12:45:12</string>
+    <string name="level_test_time">(이건 실험용이다 넘어가라)</string>
+
+    <string name="Diary1">
+탐사 일지 - 목요일 - 날씨 아주 화창\n
+마침내 상륙 성공! 오늘 이른 아침, 화물선이 이 섬을 지나갈 때 슬쩍 구명보트를 빌려 타고 해안가로 노를 저어왔다. 선장님이 2주 뒤에 나를 데리러 돌아오겠다고 약속했으니, 임무를 완수하기엔 차고 넘치는 시간이다.
+\n
+\n
+지금 나는 끝없이 펼쳐진 엄청난 백사장 한가운데 서 있다. 저 멀리 지평선에는 울창한 열대우림도 보인다. 아무것도 모르는 일반인이 보면 여기가 무슨 지상낙원인 줄 알겠지만... 난 속지 않지. 그래도 이 섬의 완전히 \'인위적이고 부자연스러운\' 비주얼에는 감탄을 금치 못하겠다. 공대생 감성 자극하네.
+</string>
+
+    <string name="Diary2">
+탐사 일지 - 일요일 - 날씨 화창\n
+육지를 떠나기 전, 내 임무에 대해 로쿠도우 선생과 면담을 가졌다. 말만 번지르르하게 하는 인간들과 달리 진짜로 세상을 바꿀 만한 거물이다. 그분이 나의 이 \'유니크한 능력\'을 알아봐 주셔서 솔직히 기뻤다. 사실 난 생존 전문가도 아니고 야외 활동 체질도 아니다. 마지막으로 캠핑 간 게 언제인지 기억도 안 남는다. 로쿠도우 선생이 이 기묘하고 황량한 무인도에 보낼 적임자로 나를 픽하다니, 진짜 눈썰미 지리신다. 절대 실망하게 하지 않겠어!
+</string>
+
+    <string name="Diary3">
+탐사 일지 - 날짜 모름 - 눈앞이 캄캄\n
+슬라임 같은 괴생명체 분석 완료. 갑옷 형태의 껍질 대신 타르 같은 끈적하고 말랑한 물질로 온몸이 도배되어 있다는 점만 빼면 딱 절지동물처럼 생겼다. 해삼류와 유전적으로 비슷해 보이지만, 이 섬의 괴상한 기운이 이 녀석을 엄청 위험한 생물로 진화시킨 듯하다. 호기심에 한 조각 떼어먹어 봤다가 진심 구토할 뻔했다.\n
+\n
+여긴 오지 말았어야 했다. 로쿠도우 그 인간한테 제대로 낚였다. 이제 지상으로 나가는 길조차 못 찾겠다. 화물선은 이미 진작에 왔다가 날 버리고 가버렸겠지. 시간에 대한 감각이 빠르게 붕괴하고 있지만, 이 지옥 같은 곳에 온 지 최소 2주는 넘은 게 확실하다. 아, 진짜 오지 말았어야 했는데...\n
+</string>
+
+    <string name="Diary4">
+탐사 일지 - 월요일 - 날씨 흐림\n
+오늘 모험가 3인조를 만났다. 이 섬에는 나밖에 없는 줄 알았는데, 내 은신처 밖에서 갑자기 인간의 목소리(그것도 뉴욕 브루클린 아재 사투리로!)가 들려서 너무 놀란 나머지 대나무 지지대를 들이받아 지붕을 무너뜨릴 뻔했다. 그들은 독자적으로 움직이는 팀이지만, 나와 마찬가지로 \'더 소스(The Source)\'를 노리고 있다. 겉으론 친절해 보였지만 묘한 신경전과 기싸움이 느껴졌다. 이미 여기 한 달 동안 있었다는데 백사장 너머 숲으로는 1cm도 못 들어간 듯하다. 만나서 반갑긴 한데 내 임무에 전혀 위협은 안 되겠다. 좋은 사람들이긴 한데 내 능력이 워낙 압도적이라 ㅋ\n
+</string>
+
+    <string name="Diary5">
+탐사 일지 - 토요일 - 비 많이 옴\n
+오늘로 사흘 연속 비가 내린다. 지난주엔 날씨가 맑아서 바다도 잔잔했고, 내가 공들여 지은 은신처가 쓸모없어 보였는데... 지금은 거대한 속이 빈 나무 밑동 틈새에 쪼그리고 앉아 골프공만 한 빗방울이 숲을 두들겨 패는 걸 구경하고 있다. 백사장은 이미 아득한 뒤편으로 사라졌고, 파도 소리는 이제 기억조차 나지 않는다.\n
+\n
+여긴 참 이상한 곳이다. 섬 중심부로 갈수록 억까(억지 까기) 같은 기현상이 늘어난다. 숲에 들어온 이후로 설명이 불가능한 것들을 몇 개나 목격했다. 뭐 상관없다. 내 임무는 명확하고 성공은 따놓은 당상이니까. 오늘은 여기서 노숙하고, 내일은 섬의 심장부를 향해 더 깊숙이 들어가 봐야겠다.\n
+</string>
+
+    <string name="Diary6">
+탐사 일지 - 날짜 모름 - 눅눅함\n
+아니, 애초에 열대우림 섬 지하에 왜 하수도 시스템이 깔려 있는 건데? 이 섬의 기운이 하수도를 유럽 고대 도시의 건축 양식처럼 키워냈는데, 대체 무슨 목적이지? 도대체 어떤 유치한 영감이 자극받았길래 이 거대한 지하 구조물이 튀어나온 걸까? 사진 한 장, 아니면 어린이용 그림책이라도 본 건가? 이 섬은 이런 건축 양식을 가진 국가들과 너무 멀리 떨어져 있어서 직접적인 영향을 받았을 리가 없다.\n
+\n
+여긴 나가면 당장 로쿠도우를 찾아가서 인생은 실전이라는 걸 참교육해 주겠다. \'더 소스\'가 가까워진 게 느껴지지만, 솔직히 이젠 찾고 싶지도 않다.\n
+</string>
+
+    <string name="Diary7">
+지하 세계엔 비가 안 오지롱!\n
+\n
+비야 비야 오지 마라, 다른 날에 다시 오렴.\n
+\n
+왕의 모든 군대와 부하들이 덤벼들어도, 깨진 험티 덤프티(달걀 인간)를 다시 조립할 순 없었네. 쿠쿠루삥뽕.\n
+</string>
+
+    <string name="Diary8">
+탐사 일지 - 수요일 - 날씨 흐림\n
+숲으로 들어가는 통로를 드디어 찾아낸 것 같다. 눈앞에 작은 공터처럼 잔디밭이 펼쳐져 있는데, 이 구간만 지나면 숲의 경계선이 헐거워질 것 같다. 내 계산이 맞다면 이쪽 해안은 일 년 내내 그늘이 지는 곳이라, 그 통곡의 벽 같던 밀림의 식물들도 이쯤에선 길을 내줄 게 분명하다.\n
+\n
+며칠 전에 만난 그 모험가 바보들은 여기 한 달 동안 있으면서도 아직 이 쉬운 걸 알아채지 못했다. 역시 내 지능은 진짜 초월적이다. 로쿠도우 선생이 왜 나를 이 임무에 픽했는지 온몸으로 이해가 가네. 내가 \'더 소스\'를 찾아서 사용법을 전수해 주면, 그분은 분명 나를 2인자 자리에 앉히겠지? 그때부터 내 권력은 상상을 초월할 것이다. 생각만 해도 침이 고인다. 하지만 설레발은 금물, 저 앞의 숲이 나를 부른다.\n
+</string>
+
+    <string name="Diary9">
+가죽 가죽 가죽 가죽 가죽 가죽 가죽 가죽 가죽 가죽 가죽.\n
+\n
+저 해적 놈들은 가죽이 부족해! 부족하다고!\n
+</string>
+
+    <string name="Diary10">
+탐사 일지 - 월요일(?) - 날씨 비\n
+이 섬에 사는 정신 나간 괴물들 때문에 전진이 막혔다. 몇몇 녀석들은 너무 평범해서 섬이 생긴 후에 그냥 이주해 온 것 같지만, 나머지는 분명 \'더 소스\'의 힘이 폭주해서 통제 불능으로 자라난 피조물들이다. 대자연의 자식들과는 눈곱만큼도 닮지 않았다. 이 섬은 세상의 조각들을 대충 쪼개서 짜깁기한 모조품, 즉 하하하하(Hahahaha)다. 아무런 통제 없이 바다 위에서 꿈틀대고 있는 날 것 그대로의 순수한 힘.\n
+\n
+하지만 내 위대한 손길만 거친다면, 이 힘을 엄청난 곳에 쓸 수 있다! \'더 소스\'가 우리 손에 들어오면 인류는 입맛대로 세상을 빚어낼 수 있고, 전쟁과 가난도 영원히 안녕이다. 로쿠도우도 그 힘을 원하고, 나도 원한다. 오직 억압하고 파괴만 일삼는 정부와 기생충 같은 집단으로부터 세상을 해방하기 위해! 영광의 순간이 코앞이다.\n
+</string>
+
+    <string name="Diary11">
+탐사 일지 - 날짜 까먹음 - 폭우\n
+\n
+전에 만난 그 모험가 녀석들이 전부 시체가 됐다. 숲속 기암괴석 근처 나무에 매달려 있는 걸 발견했다. 발견했을 때 소름 끼치고 슬펐다. 비록 같은 목표를 두고 경쟁하는 사이였지만 나름의 동질감을 느끼고 있었는데... 어쨌든 이 섬에 존재하는 유일한 인류들이었으니까.\n
+\n
+비극적이긴 하지만, 이 불행한 결말 때문에 내 목표를 흐릴 순 없다. 시체 근처의 바위 무더기는 엄청난 발견이다. 어떤 동굴의 입구처럼 보인다. 게다가 가장 짜릿한 건, 바위가 마치 사람 손으로 정교하게 깎아 만든 것처럼 생겼다는 점이다. 감히 말하건대 지하철역이나 벙커 입구이다.\n
+\n
+동굴로 들어가기 전에 숲을 한 번 더 수색해야겠다. 모험가들의 베이스캠프에서 배터리랑 쓸만한 전자기기들을 봐뒀는데 개조해서 쓰면 개이득이다. 그것들을 루팅(Rooting)한 다음에 돌아와서 본격적인 지하 던전 하강을 시작하겠다.\n
+</string>
+
+    <string name="Diary12">
+탐사 일지 - 알 수 없음 - 지하 세계\n
+\n
+머리가 깨질 것 같다. 이 지하의 유독가스 때문인가? 머릿속에 압력이 꽉 차올라서 조만간 펑 하고 터져버릴 것 같다. 통증이 심해질 때마다 나는 가만히 앉아서 소수(Prime number)를 세는 데 집중한다. 지하에 갇히고 나니 어릴 적 마음을 진정 시대 버릇이 다시 도진 것이다.\n
+\n
+\'더 소스\'를 찾으면, 내 몸을 갉아먹고 있는 이 몹쓸 괴질부터 고쳐야겠다. 만약 로쿠도우가 궁시렁거리면 그냥 지구 밖으로 사출시켜 버리지 뭐. 결국 이 가짜 하수도 바닥에서 무릎 다 까지고 편두통에 시달리며 개고생하고 있는 건 그 인간이 아니라 나다. 지하에 먹을 식물이 없어서 몇 일 동안 굶주려야 하는 것도 그 인간이 아니라 나다. 뼈 빠지게 구르는 건 나니까, 보상도 내가 독식하는 게 정당하다. \'더 소스\'는 오직 내 것이다. 내 거라고!\n
+\n
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29...\n
+</string>
+
+    <string name="Diary13">
+그 인간이 구라쳤어 구라쳤어 구라쳤어. 로쿠도우는 희대의 사기꾼이다. 그저 지배하려는 정치가일 뿐이다. 세상을 구하겠답시고 지구를 꼭두각시처럼 부리는 기득권 뚱땡이들을 없애기 위해 \'더 소스\'가 필요하다고? 아니, 그.. 그.. 그 인간이야말로 진짜 뚱땡이 조종사다. 그 인간한테는 절대로 \'더 소스\'를 주지 않겠다. 내 거다. 내 거 내 거 내 거 내 거 내 거!! 73, 79, 83, 89, 97, 101, 103, 107, 109, 113...\n
+\n
+\'더 소스\'가 여기 있다. 이 어둠 속 바로 밑에 있다. 그 녀석의 열기가 느껴진다. 내 뺨을 스치는 태양 같은 따스함... 아니, 안 돼, 지금 가면 안 돼, 아직은.. 아직은 때가 아니다. 지금 찾았다간 로쿠도우가 홀라당 뺏어갈 거고, 그럼 난 완전 체크.. 체크.. 체크메이트(패배)잖아. 아니야, 이 카보차노미즈 박사는 신중하다. 카보차노미즈는 철두철미하다. 일단 지상으로 후퇴한다. 이제 물건들을 만들어낼 지식은 충분히 모았다. 완벽하게 승리할 장비를 갖춘 뒤 다시 돌아오겠다. 로쿠도우는 내 앞에 무릎 꿇을 것이고, 세상은 카보차노미즈를 구세주로 칭송하리라!\n
+</string>
+
+    <string name="Diary14">
+탐사 일지 - 토요일 - 개구림\n
+\n
+솔직히 로쿠도우가 \'더 소스\'를 찾을 사람으로 나를 픽했을 땐 좀 놀랐다. 내가 전 세계 어떤 연구자 못지않게 이 섬을 멀리서 연구해 온 건 팩트지만, 면바지에 실험실 가운 조합은 이런 험악한 숲 지형엔 1도 안 맞으니까. 처음에 제안받았을 땐 냄새가 나서 의심했지만, 이제 보니 이 임무를 성공시킬 유일한 브레인은 나밖에 없다. 이 섬은 100년 동안 아무런 방해 없이 자라났고, 그 뒤틀린 현실의 변종들은 나약한 인간이라면 단숨에 정신병원으로 보내버릴 만한 수준이니까.\n
+\n
+그래도 로쿠도우 그 인간을 온전히 믿을 순 없다. 똑똑한 작자지만, 나를 고른 이유도 단지 부려먹기 쉽다고 생각해서일 게 뻔하다. 자꾸 누군가 내 등 뒤에서 감시하고 있는 것 같은 쎄한 기분이 든다. 당연히 이 섬엔 나랑 며칠 전에 만난 모험가 3명 빼곤 민간인이 없으니 스파이가 있을 리 없지만... 그래도 감시당하는 이 이상한 기분은 떨칠 수가 없다.\n
+</string>
+
+    <string name="Diary15">
+탐사 일지 - 날짜 개념이 소멸함 - 날씨 화창\n
+\n
+이 공책 쪼가리에라도 내 비밀을 털어놓아야겠다.\n
+\n
+사실 그 모험가 녀석들, 내가 죽였다. 다들 잠들었을 때 처리하고 숲속 바위 근처 나무에 매달아 놓았다. 마치 이 섬의 기괴한 생물들이 해치운 것처럼 나 자신까지 속이려고 말이다. 참 끔찍한 작업이었지만, 어쩔 수 없었다. 그놈들이 가져온 물자, 특히 배터리랑 손전등이 나한테 절실히 필요했으니까. 그리고 무엇보다, 그 멍청한 놈들이 천운으로 동굴 입구를 찾아내 버렸다. 밀림 속을 어리바리 헤매다가 우연히 밟은 게 분명하다. 그딴 지능으로 계산해냈을 리가 없다. \'더 소스\'는 그런 생각 없는 놈들에게 맡기기엔 너무나 고귀한 존재다. 혹시라도, 0.0001%의 확률로라도 그 녀석들이 먼저 찾게 놔둘 순 없었다.\n
+\n
+내가 괴물인가? 천만에. 나는 전 세계적으로 존경받는 과학자이자, 이 뒤집힌 아틀란티스 섬의 최고 권위자 카보차노미즈 박사다. 내 행동은 철저히 논리적이고 정당방위였다. 난 괴물이 아니다.\n
+\n
+...솔직히 내 마음에 솔직해지자면, 그 녀석들을 죽여야 했던 또 다른 이유가 있다. 그냥 그러고 싶었다. 그리고... 솔직히 짜릿하고 재밌었다.
+</string>
+
+    <!-- Misc Dialog -->
+
+    <string name="KyleDeadNote">카일이다. 숨을 쉬지 않는다. (시체가 되었다)</string>
+    <string name="skip_level">레벨 건너뛰기</string>
+    <string name="preference_go_to_ending">바로 엔딩!!!</string>
+    <string name="preference_go_to_ending_summary">선택하면 바로 엔딩 화면으로 이동합니다.</string>
+    <string name="achievements">업적</string>
+    <string name="achievements_title">플레이 기록 (업적)</string>
+    <string name="achievements_ok">알았다</string>
+    <string name="achievements_total_attempts">총 도전 횟수:</string>
+    <string name="achievements_current_level">현재 진행 중인 레벨:</string>
+    <string name="quit_game_dialog_resume">이어서 하기</string>
+    <string name="quit_game_dialog_skip">레벨 건너뛰기</string>
+    <string name="quit_game_dialog_quit">나가기</string>
+
+    <string name="test_play">테스트 플레이</string>
+    <string name="test_play_dialog_title">무엇을 테스트하시겠습니까?</string>
+    <string name="preference_enable_test_play">테스트 플레이 모드 활성화</string>
+    <string name="preference_enable_test_play_summary">메인 메뉴에 성능 테스트용 버튼을 추가합니다.</string>
+</resources>
