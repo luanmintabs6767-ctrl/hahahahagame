@@ -1,0 +1,41 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  # ⏰ 10분마다 자동으로 빌드가 돌아가도록 스케줄러 추가
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    # 최근 안드로이드 빌드를 위해 JDK 버전을 17로 업그레이드 (필요시 11로 유지 가능)
+    - name: set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    # 🛠️ 단순히 검사(build)만 하는 것이 아니라 실제 설치용 APK를 만들어냅니다.
+    - name: Build Release APK with Gradle
+      run: ./gradlew assembleRelease
+
+    # 📥 빌드된 APK 파일을 GitHub 웹사이트(대시보드)에 등록하여 다운로드받을 수 있게 합니다.
+    - name: Upload APK Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        # 다운로드받을 때 표시될 파일 이름 (빌드 번호가 자동으로 붙습니다)
+        name: app-release_b${{ github.run_number }}
+        # GitHub Actions(리눅스 환경)에서 빌드된 APK 파일의 경로
+        path: app/build/outputs/apk/release/app-release.apk
