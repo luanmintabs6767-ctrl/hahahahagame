@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  # ⏰ 10분마다 자동으로 빌드가 돌아가도록 스케줄러 추가
+  # ⏰ 10분마다 자동으로 빌드가 돌아가도록 스케줄러 지정
   schedule:
     - cron: '*/10 * * * *'
 
@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    # 최근 안드로이드 빌드를 위해 JDK 버전을 17로 업그레이드 (필요시 11로 유지 가능)
+    # 1. 안드로이드 빌드에 필요한 자바 환경 세팅
     - name: set up JDK 17
       uses: actions/setup-java@v4
       with:
@@ -24,18 +24,23 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
+    # 2. ⚠️ 중요: GitHub Actions 가상 서버에 Android SDK 환경 구축
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+
+    # 3. 빌드 스크립트 실행 권한 부여
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    # 🛠️ 단순히 검사(build)만 하는 것이 아니라 실제 설치용 APK를 만들어냅니다.
+    # 4. Release용 APK 빌드 진행
     - name: Build Release APK with Gradle
       run: ./gradlew assembleRelease
 
-    # 📥 빌드된 APK 파일을 GitHub 웹사이트(대시보드)에 등록하여 다운로드받을 수 있게 합니다.
+    # 5. 빌드된 APK 파일을 GitHub Actions 대시보드에 업로드
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
       with:
-        # 다운로드받을 때 표시될 파일 이름 (빌드 번호가 자동으로 붙습니다)
         name: app-release_b${{ github.run_number }}
-        # GitHub Actions(리눅스 환경)에서 빌드된 APK 파일의 경로
-        path: app/build/outputs/apk/release/app-release.apk
+        # 빌드 완료된 APK 파일 경로 (프로젝트 구조에 맞게 복사)
+        path: |
+          app/build/outputs/apk/release/*.apk
